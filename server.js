@@ -6,7 +6,7 @@ var jsonString = {"name" : "Victor Calancea",
 					{ "places" : ["20.87833, -156.68250", "-8.40952, 115.18892"] }
 };
 
-console.log(jsonString);
+//console.log(jsonString);
 
 app.get('/', function(req, res){
   res.json(jsonString);
